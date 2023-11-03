@@ -1,5 +1,3 @@
---// Fluent on Top!
-
 --// Values
 
 local Key = "TroXerOnTop912351234"
@@ -7,7 +5,7 @@ _G.Key = Key
 
 --// Settings
 
---if game.PlaceId ==  then
+if game.PlaceId == 6403373529 then
     if game:IsLoaded() then
         if _G.Key == Key then
             local Bypass;
@@ -21,7 +19,7 @@ _G.Key = Key
                 end
                 return Bypass(Method, ...)
             end)
-    
+            
             local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
             local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
             local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
@@ -114,4 +112,4 @@ _G.Key = Key
             })
         end
     end
---end
+end
